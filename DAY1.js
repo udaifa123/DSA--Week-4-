@@ -168,16 +168,16 @@
 
 
 //_______________________________Intersection of Two Arrays_________________________
-function intersection(a,b){
-    let setA=new Set(a)
-    let result=[]
+// function intersection(a,b){
+//     let setA=new Set(a)
+//     let result=[]
 
-    for(let num of b){
-        if(setA.has(num)){
-            result.push(num)
-            setA.delete(num)
-        }
-    }
-    return result
-}
-console.log(intersection([1,2,2,3],[2,3]))
+//     for(let num of b){
+//         if(setA.has(num)){
+//             result.push(num)
+//             setA.delete(num)
+//         }
+//     }
+//     return result
+// }
+// console.log(intersection([1,2,2,3],[2,3]))
